@@ -1,0 +1,1034 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Sources\PhysXFoundation.cpp">
+      <Filter>Engine\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\PhysXPhysics.cpp">
+      <Filter>Engine\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\dispositif.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GestionnaireDeTextures.cpp">
+      <Filter>Engine\Ressources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DIManipulateur.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DDSTextureLoader.cpp">
+      <Filter>Engine\Rendering\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\dispositifD3D11.cpp">
+      <Filter>Engine\Rendering\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\sommetbloc.cpp">
+      <Filter>Engine\Rendering\Object3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\TerrainPatchEffet.cpp">
+      <Filter>Engine\Rendering\Object3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\InfoDispositif.cpp">
+      <Filter>Engine\Rendering\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Texture.cpp">
+      <Filter>Engine\Ressources\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\PhysicEngine.cpp">
+      <Filter>Engine\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\EntityRegistry.cpp">
+      <Filter>Engine\ECS\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Camera.cpp">
+      <Filter>Engine\Rendering\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CMeshImporter.cpp">
+      <Filter>Engine\Rendering\Object3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Scene.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Shader.cpp">
+      <Filter>Engine\Ressources\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Win32Backend.cpp">
+      <Filter>Engine\Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Frustum.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Zone.cpp">
+      <Filter>Engine\Scene\Zone</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Materiel.cpp">
+      <Filter>Engine\Ressources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\D3D11Renderer.cpp">
+      <Filter>Engine\Rendering\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\PerspectiveCameraLen.cpp">
+      <Filter>Engine\Rendering\Camera\Lens</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Systems.cpp">
+      <Filter>Engine\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CatmullRom.cpp">
+      <Filter>Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\PhysicHelper.cpp">
+      <Filter>Engine\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Logger.cpp">
+      <Filter>Engine\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CameraManager.cpp">
+      <Filter>Engine\Rendering\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Math.cpp">
+      <Filter>Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\BaseCameraController.cpp">
+      <Filter>Game\CameraControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Transform.cpp">
+      <Filter>Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RenderTexture.cpp">
+      <Filter>Engine\Rendering\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ScreenBillboard.cpp">
+      <Filter>Engine\Rendering\Object3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\PostFX.cpp">
+      <Filter>Engine\Ressources\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\PhysicSimulationEvents.cpp">
+      <Filter>Engine\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Skybox.cpp">
+      <Filter>Engine\Rendering\Object3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\EventBus.cpp">
+      <Filter>Engine\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\WreckingBallCameraController.cpp">
+      <Filter>Game\CameraControllers\Third Person</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ThirdPersonCameraController.cpp">
+      <Filter>Game\CameraControllers\Third Person</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\SimpleCameraController.cpp">
+      <Filter>Game\CameraControllers\Third Person</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CameraController.cpp">
+      <Filter>Game\CameraControllers\Third Person</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RayCastedThirdPersonCameraController.cpp">
+      <Filter>Game\CameraControllers\Third Person</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\BackwardCommand.cpp">
+      <Filter>Game\Input\Commands\Movements</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ForwardCommand.cpp">
+      <Filter>Game\Input\Commands\Movements</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\LeftCommand.cpp">
+      <Filter>Game\Input\Commands\Movements</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RightCommand.cpp">
+      <Filter>Game\Input\Commands\Movements</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\PlayerMovementCommand.cpp">
+      <Filter>Game\Input\Commands\Movements</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GrapplingCommand.cpp">
+      <Filter>Game\Input\Commands\Movements</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GeneralController.cpp">
+      <Filter>Game\Input\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\KeyboardMovementController.cpp">
+      <Filter>Game\Input\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MouseGrapplingController.cpp">
+      <Filter>Game\Input\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GrapplingManager.cpp">
+      <Filter>Game\GameplayController</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Mesh.cpp">
+      <Filter>Engine\Ressources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DynamicMesh.cpp">
+      <Filter>Engine\Rendering\Object3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\HitBox.cpp">
+      <Filter>Engine\Rendering\Object3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\JumpCommand.cpp">
+      <Filter>Game\Input\Commands\Movements</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Billboard.cpp">
+      <Filter>Engine\Rendering\Object3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Profiler.cpp">
+      <Filter>Engine\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\LightManager.cpp">
+      <Filter>Engine\Rendering\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\AfficheurTexte.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\BillboardRenderingSystem.cpp">
+      <Filter>Engine\ECS\Systems\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\StaticMeshRenderingSystem.cpp">
+      <Filter>Engine\ECS\Systems\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CameraSystem.cpp">
+      <Filter>Engine\ECS\Systems\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\BillboardSystem.cpp">
+      <Filter>Engine\ECS\Systems\Transform Modifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UpdateRigidBodyTransformsSystem.cpp">
+      <Filter>Engine\ECS\Systems\Transform Modifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\TriggerSystem.cpp">
+      <Filter>Engine\ECS\Systems\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\InputSystem.cpp">
+      <Filter>Engine\ECS\Systems\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UpdateSystem.cpp">
+      <Filter>Engine\ECS\Systems\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\BaseRenderingSystem.cpp">
+      <Filter>Engine\ECS\Systems\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Components.cpp">
+      <Filter>Engine\ECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RequiredSystems.cpp">
+      <Filter>Game\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\EntityFactory.cpp">
+      <Filter>Game\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\LibraryLoader.cpp">
+      <Filter>Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\EntityFactoryAPI.cpp">
+      <Filter>Game\SceneLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\SceneAPI.cpp">
+      <Filter>Game\SceneLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\TransformHierarchy.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\HierarchicalTransformSystem.cpp">
+      <Filter>Engine\ECS\Systems\Transform Modifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameplayCameraManager.cpp">
+      <Filter>Game\GameplayController</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\KeyboardCameraChangeController.cpp">
+      <Filter>Game\Input\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RequestCameraChangeCommand.cpp">
+      <Filter>Game\Input\Commands\State Changes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\BaseTransformModifierSystem.cpp">
+      <Filter>Engine\ECS\Systems\Transform Modifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GizmoRenderer.cpp">
+      <Filter>Engine\Rendering\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DebugCameraController.cpp">
+      <Filter>Game\CameraControllers\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\FirstPersonCameraController.cpp">
+      <Filter>Game\CameraControllers\First Person</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RadialBlur.cpp">
+      <Filter>Game\PostFX</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Score.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Bloom.cpp">
+      <Filter>Engine\Ressources\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\PlayerController.cpp">
+      <Filter>Game\GameplayController</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ShaderTerrain.cpp">
+      <Filter>Engine\Ressources\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Bloom.cpp">
+      <Filter>Game\PostFX</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MaterielTerrain.cpp">
+      <Filter>Engine\Ressources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\sommetTerrain.cpp">
+      <Filter>Engine\Rendering\Object3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\OptionDatabase.cpp">
+      <Filter>Game\GameplayController</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\HUD_En_Jeux.cpp">
+      <Filter>Game\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\HUD_Manager.cpp">
+      <Filter>Game\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\In_Game_Menu.cpp">
+      <Filter>Game\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\BridgeController.cpp">
+      <Filter>Game\GameplayController</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Main_Menu.cpp">
+      <Filter>Game\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Scoreboard_Menu.cpp">
+      <Filter>Game\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Option_Menu.cpp">
+      <Filter>Game\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\LightingSystem.cpp">
+      <Filter>Engine\ECS\Systems\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\VariableColorUpdateSystem.cpp">
+      <Filter>Engine\ECS\Systems\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameController.cpp">
+      <Filter>Game\GameplayController</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ChronoManager.cpp">
+      <Filter>Game\GameplayController</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\SplineFollowingSystem.cpp">
+      <Filter>Engine\ECS\Systems\Transform Modifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Endgame_Menu.cpp">
+      <Filter>Game\HUD</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resources\resource.h">
+      <Filter>Game\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\PhysXFoundation.h">
+      <Filter>Engine\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\PhysXPhysics.h">
+      <Filter>Engine\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\vector.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\util.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Singleton.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\dispositif.h">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GestionnaireDeTextures.h">
+      <Filter>Engine\Ressources</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\DIManipulateur.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Moteur.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\PetitMoteur3D.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\d3dx11effect.h">
+      <Filter>Engine\Rendering\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\d3dxGlobal.h">
+      <Filter>Engine\Rendering\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\DDSTextureLoader.h">
+      <Filter>Engine\Rendering\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\dispositifD3D11.h">
+      <Filter>Engine\Rendering\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\objet3d.h">
+      <Filter>Engine\Rendering\Object3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\sommetbloc.h">
+      <Filter>Engine\Rendering\Object3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\TerrainPatchEffet.h">
+      <Filter>Engine\Rendering\Object3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Camera.h">
+      <Filter>Engine\Rendering\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\InfoDispositif.h">
+      <Filter>Engine\Rendering\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Texture.h">
+      <Filter>Engine\Ressources\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\PhysicEngine.h">
+      <Filter>Engine\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Clock.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Entity.h">
+      <Filter>Engine\ECS\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\EntityRegistry.h">
+      <Filter>Engine\ECS\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\TransformComponent.h">
+      <Filter>Engine\ECS\Components\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\VectorStorage.h">
+      <Filter>Engine\ECS\Components\Storages</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\StorageTraits.h">
+      <Filter>Engine\ECS\Components\Storages</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RigidBodyComponent.h">
+      <Filter>Engine\ECS\Components\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\SystemInterface.h">
+      <Filter>Engine\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ComponentStorages.h">
+      <Filter>Engine\ECS\Components\Storages</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\DInputInitData.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\CMeshImporter.h">
+      <Filter>Engine\Rendering\Object3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Headers\Zone.h">
+      <Filter>Engine\Scene\Zone</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Headers\Scene.h">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\DrawContext.h">
+      <Filter>Engine\Rendering\Object3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\EngineContext.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Win32Backend.h">
+      <Filter>Engine\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\BackendTraits.h">
+      <Filter>Engine\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Couleur.h">
+      <Filter>Engine\Ressources\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Shader.h">
+      <Filter>Engine\Ressources\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Materiel.h">
+      <Filter>Engine\Ressources</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Headers\Frustum.h">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\LightComponent.h">
+      <Filter>Engine\ECS\Components\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\StaticMeshComponent.h">
+      <Filter>Engine\ECS\Components\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\PhysicMaterial.h">
+      <Filter>Engine\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Components.h">
+      <Filter>Engine\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Systems.h">
+      <Filter>Engine\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\InputComponent.h">
+      <Filter>Engine\ECS\Components\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ControllerLayout.h">
+      <Filter>Engine\Input\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\InputController.h">
+      <Filter>Engine\Input\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\InputCommand.h">
+      <Filter>Engine\Input\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\EntityProxy.h">
+      <Filter>Engine\ECS\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\EntityProxyFactory.h">
+      <Filter>Engine\ECS\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\D3D11Renderer.h">
+      <Filter>Engine\Rendering\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Renderer.h">
+      <Filter>Engine\Rendering\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RenderCommand.h">
+      <Filter>Engine\Rendering\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\PerspectiveCameraLen.h">
+      <Filter>Engine\Rendering\Camera\Lens</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\CameraLen.h">
+      <Filter>Engine\Rendering\Camera\Lens</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Gestionnaires.h">
+      <Filter>Engine\Ressources</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\HitBox.h">
+      <Filter>Engine\Rendering\Object3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\CatmullRom.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\CollisionMasks.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\PhysicHelpers.h">
+      <Filter>Engine\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UpdateComponent.h">
+      <Filter>Engine\ECS\Components\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\KeyboardKeys.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\CameraComponent.h">
+      <Filter>Engine\ECS\Components\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Logger.h">
+      <Filter>Engine\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\CameraManager.h">
+      <Filter>Engine\Rendering\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\BaseCameraController.h">
+      <Filter>Game\CameraControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Transform.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RenderTexture.h">
+      <Filter>Engine\Rendering\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ScreenBillboard.h">
+      <Filter>Engine\Rendering\Object3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\PostFX.h">
+      <Filter>Engine\Ressources\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\PhysicSimulationEvents.h">
+      <Filter>Engine\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\TriggerComponent.h">
+      <Filter>Engine\ECS\Components\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Identities.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\EventBus.h">
+      <Filter>Engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Skybox.h">
+      <Filter>Engine\Rendering\Object3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Event.h">
+      <Filter>Engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\EventTraits.h">
+      <Filter>Engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\EngineEvents.h">
+      <Filter>Engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\WreckingBallCameraController.h">
+      <Filter>Game\CameraControllers\Third Person</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ThirdPersonCameraController.h">
+      <Filter>Game\CameraControllers\Third Person</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\SimpleCameraController.h">
+      <Filter>Game\CameraControllers\Third Person</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\CameraController.h">
+      <Filter>Game\CameraControllers\Third Person</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RayCastedThirdPersonCameraController.h">
+      <Filter>Game\CameraControllers\Third Person</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\BackwardCommand.h">
+      <Filter>Game\Input\Commands\Movements</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ForwardCommand.h">
+      <Filter>Game\Input\Commands\Movements</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\LeftCommand.h">
+      <Filter>Game\Input\Commands\Movements</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\PlayerMovementCommand.h">
+      <Filter>Game\Input\Commands\Movements</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RightCommand.h">
+      <Filter>Game\Input\Commands\Movements</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GrapplingCommand.h">
+      <Filter>Game\Input\Commands\Movements</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GeneralController.h">
+      <Filter>Game\Input\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\KeyboardMovementController.h">
+      <Filter>Game\Input\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\MouseGrapplingController.h">
+      <Filter>Game\Input\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GrapplingManager.h">
+      <Filter>Game\GameplayController</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Mesh.h">
+      <Filter>Engine\Ressources</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\DynamicMesh.h">
+      <Filter>Engine\Rendering\Object3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\TriggerEvent.h">
+      <Filter>Engine\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\JumpCommand.h">
+      <Filter>Game\Input\Commands\Movements</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Billboard.h">
+      <Filter>Engine\Rendering\Object3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\BillboardComponent.h">
+      <Filter>Engine\ECS\Components\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Profiler.h">
+      <Filter>Engine\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\TextComponent.h">
+      <Filter>Engine\ECS\Components\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GrapplingComponent.h">
+      <Filter>Engine\ECS\Components\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\LightManager.h">
+      <Filter>Engine\Rendering\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GrapplingComponent.h">
+      <Filter>Engine\ECS\Components\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\LightManager.h">
+      <Filter>Engine\Rendering\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\AfficheurTexte.h">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\BillboardRenderingSystem.h">
+      <Filter>Engine\ECS\Systems\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\StaticMeshRenderingSystem.h">
+      <Filter>Engine\ECS\Systems\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\LightingSystem.h">
+      <Filter>Engine\ECS\Systems\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\CameraSystem.h">
+      <Filter>Engine\ECS\Systems\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\BillboardSystem.h">
+      <Filter>Engine\ECS\Systems\Transform Modifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UpdateRigidBodyTransformsSystem.h">
+      <Filter>Engine\ECS\Systems\Transform Modifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\TriggerSystem.h">
+      <Filter>Engine\ECS\Systems\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\InputSystem.h">
+      <Filter>Engine\ECS\Systems\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\UpdateSystem.h">
+      <Filter>Engine\ECS\Systems\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\BaseRenderingSystem.h">
+      <Filter>Engine\ECS\Systems\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\MapStorage.h">
+      <Filter>Engine\ECS\Components\Storages</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RequiredSystems.h">
+      <Filter>Game\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\MathHelpers.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\EntityFactory.h">
+      <Filter>Game\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\LibraryLoader.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\EntityFactoryAPI.h">
+      <Filter>Game\SceneLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\SceneLoaderContext.h">
+      <Filter>Game\SceneLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\SceneAPI.h">
+      <Filter>Game\SceneLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\TransformHierarchy.h">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\HierarchicalTransformSystem.h">
+      <Filter>Engine\ECS\Systems\Transform Modifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameplayCameraManager.h">
+      <Filter>Game\GameplayController</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GrapplingEvent.h">
+      <Filter>Game\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\CameraEvent.h">
+      <Filter>Game\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\KeyboardCameraChangeController.h">
+      <Filter>Game\Input\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RequestCameraChangeCommand.h">
+      <Filter>Game\Input\Commands\State Changes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\BaseTransformModifierSystem.h">
+      <Filter>Engine\ECS\Systems\Transform Modifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\CheatDatabase.h">
+      <Filter>Engine\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GizmoRenderer.h">
+      <Filter>Engine\Rendering\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Main_Menu.h">
+      <Filter>Game\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\HUD_En_Jeux.h">
+      <Filter>Game\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\HUD_Manager.h">
+      <Filter>Game\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\MenuInterface.h">
+      <Filter>Game\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\In_Game_Menu.h">
+      <Filter>Game\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\DebugCameraController.h">
+      <Filter>Game\CameraControllers\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\FirstPersonCameraController.h">
+      <Filter>Game\CameraControllers\First Person</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\RadialBlur.h">
+      <Filter>Game\PostFX</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Scoreboard_Menu.h">
+      <Filter>Game\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Score.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Bloom.h">
+      <Filter>Engine\Ressources\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\HUD_Event.h">
+      <Filter>Game\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\PlayerController.h">
+      <Filter>Game\GameplayController</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ShaderTerrain.h">
+      <Filter>Engine\Ressources\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\MaterielTerrain.h">
+      <Filter>Engine\Ressources</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\SommetTerrain.h">
+      <Filter>Engine\Rendering\Object3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Bloom.h">
+      <Filter>Game\PostFX</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\OptionDatabase.h">
+      <Filter>Game\GameplayController</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Option_Menu.h">
+      <Filter>Game\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\BridgeController.h">
+      <Filter>Game\GameplayController</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\VariableColorUpdateSystem.h">
+      <Filter>Engine\ECS\Systems\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\VariableColorComponent.h">
+      <Filter>Engine\ECS\Components\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\PlayerEvent.h">
+      <Filter>Game\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameController.h">
+      <Filter>Game\GameplayController</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ChronoManager.h">
+      <Filter>Game\GameplayController</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\SplineFollowingSystem.h">
+      <Filter>Engine\ECS\Systems\Transform Modifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\SplineComponent.h">
+      <Filter>Engine\ECS\Components\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Endgame_Menu.h">
+      <Filter>Game\HUD</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\small.ico">
+      <Filter>Game\Resources</Filter>
+    </Image>
+    <Image Include="Resources\PetitMoteur3D.ico">
+      <Filter>Game\Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\out.patch">
+      <Filter>Game\Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{38ed52fc-cc63-4c0e-8d43-3faf1950765c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physic">
+      <UniqueIdentifier>{f51e5c12-0a6d-468f-9275-72d70bd49ac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{dbc75f21-0948-493d-9098-bb000f0dfd97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Resources">
+      <UniqueIdentifier>{edaf658e-e30b-4d4e-a476-0dba0d7461b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Shaders">
+      <UniqueIdentifier>{99f61cfb-bae5-4f16-9e71-b7c126e19765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core">
+      <UniqueIdentifier>{f0ff0097-80f9-49a9-8280-a689c53150e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering">
+      <UniqueIdentifier>{d610c820-2af1-4322-8f7f-7dc823c13992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Ressources">
+      <UniqueIdentifier>{3d10d2b1-1e07-407a-9be9-3c5fc42abe75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input">
+      <UniqueIdentifier>{0d82b654-1d48-4e9c-abe9-f9a45296cdca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\D3D11">
+      <UniqueIdentifier>{2641a671-fc4a-4720-bce7-873af280058e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Object3D">
+      <UniqueIdentifier>{863cff4f-338f-4361-b4c5-235c5f57a4a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Camera">
+      <UniqueIdentifier>{3b2c943a-0170-4791-94ee-713b4e2e05dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Ressources\D3D11">
+      <UniqueIdentifier>{ff4e55d8-4966-4be9-9bfb-f9fd050b2116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\ECS">
+      <UniqueIdentifier>{dd363447-dc51-4503-b7bd-b60cdf4c8202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\ECS\Systems">
+      <UniqueIdentifier>{0e67d3e2-8214-480c-9c74-60768c727653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\ECS\Components">
+      <UniqueIdentifier>{d90ffd94-4f9c-4769-834e-fdcc503059cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\ECS\Entities">
+      <UniqueIdentifier>{75fc27fc-4314-4d7e-94e2-7afb6edc29b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\ECS\Components\Storages">
+      <UniqueIdentifier>{a084beb4-e660-4786-b5f0-a9f9137021ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\ECS\Components\Data">
+      <UniqueIdentifier>{b7bbf244-96e6-4214-bbc6-a0640b0563a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Scene">
+      <UniqueIdentifier>{72825ebd-b4c0-4cf1-8c76-d4eff566836a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Backend">
+      <UniqueIdentifier>{7187f470-5902-4161-9e87-0ed8dfde8747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Scene\Zone">
+      <UniqueIdentifier>{5fea0cda-1d3b-4d71-b4a9-f82643eed801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input\Controller">
+      <UniqueIdentifier>{98b6b464-b5e3-46dc-b3b0-8c3a2cd09365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input\Commands">
+      <UniqueIdentifier>{702c127c-44ee-4966-bc5d-dd88bfdac21f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Renderer">
+      <UniqueIdentifier>{2e9da7d8-05ac-4e90-8857-18cbe7dfb056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Camera\Lens">
+      <UniqueIdentifier>{70decdef-f53e-4952-94d7-4dc616645e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Debug">
+      <UniqueIdentifier>{e2d3f236-7e63-42b4-a618-e9071e901e18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\CameraControllers">
+      <UniqueIdentifier>{922964d0-547e-4e3e-a331-7fb3df6c1c4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\ECS">
+      <UniqueIdentifier>{95760c32-4c35-4e4f-b135-47f9d216f56f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Events">
+      <UniqueIdentifier>{12cc7f17-d04f-4350-8d3d-1058f311c185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\CameraControllers\Third Person">
+      <UniqueIdentifier>{0efc3d0b-a8eb-41db-bcd7-349013b935cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Input">
+      <UniqueIdentifier>{1f54a06e-9cc6-44d2-97b6-3d15f2bf5c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Input\Commands">
+      <UniqueIdentifier>{1a245d5c-d671-49be-9ade-47ab17640a9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Input\Controllers">
+      <UniqueIdentifier>{54a9609a-7ed4-4d52-b196-ba32a810363f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameplayController">
+      <UniqueIdentifier>{cbcee2cc-448c-47d7-930f-2e8e5e390aad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\ECS\Systems\Rendering">
+      <UniqueIdentifier>{65368a9b-035f-426c-a583-e4d5f931b234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\ECS\Systems\Transform Modifiers">
+      <UniqueIdentifier>{9c23f8bf-1054-4e0a-995b-77b6feefb8e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\ECS\Systems\Events">
+      <UniqueIdentifier>{17936e9c-900d-40a5-94ef-c559d5656fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\ECS\Systems\Callbacks">
+      <UniqueIdentifier>{96363b9e-bb62-41ef-acd3-d0503c401b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\SceneLoader">
+      <UniqueIdentifier>{459cbb8b-3ca2-4384-b060-f6aa9ded1584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Events">
+      <UniqueIdentifier>{eddc2163-a587-4144-810e-39632fabc80f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Input\Commands\State Changes">
+      <UniqueIdentifier>{9be42840-2728-4914-8d14-2073ad9889a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Input\Commands\Movements">
+      <UniqueIdentifier>{1fa43990-0a2b-452f-97f1-ca816e802e1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Debug">
+      <UniqueIdentifier>{3c65d2d2-7bb5-45f4-ab42-0f0048a864d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\HUD">
+      <UniqueIdentifier>{ade0a767-04f8-4c9d-a0cc-d07f86d0b57c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\CameraControllers\First Person">
+      <UniqueIdentifier>{9ca1a0bc-2ab1-4524-9d65-1493777c4fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\CameraControllers\Debug">
+      <UniqueIdentifier>{ad05bd75-4f1c-4499-bacb-ac9980f04e5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\PostFX">
+      <UniqueIdentifier>{5ba83446-4ce5-4449-aee1-796f4bed5a2d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\PetitMoteur3D.rc">
+      <Filter>Game\Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Sources\Shader\Bloom.fx">
+      <Filter>Game\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Sources\Shader\Brightness.fx">
+      <Filter>Game\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Sources\Shader\Gizmo.fx">
+      <Filter>Game\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Sources\Shader\HBlur.fx">
+      <Filter>Game\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Sources\Shader\Hud.fx">
+      <Filter>Game\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Sources\Shader\MiniPhong.fx">
+      <Filter>Game\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Sources\Shader\RadialBlur.fx">
+      <Filter>Game\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Sources\Shader\Screen.fx">
+      <Filter>Game\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Sources\Shader\ShaderBis.fx">
+      <Filter>Game\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Sources\Shader\Skybox.fx">
+      <Filter>Game\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Sources\Shader\VBlur.fx">
+      <Filter>Game\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Sources\Shader\Terrain.fx">
+      <Filter>Game\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

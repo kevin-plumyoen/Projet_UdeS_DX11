@@ -1,0 +1,3 @@
+﻿  terrain_patch.cpp
+d:\perforce\girn2102_l06680-04-80934_develop_9811\lagrandecourse\terrain\src\terrain_patch.cpp(291): warning C4267: 'argument': conversion from 'size_t' to 'ng::TerrainPatch::dimension_type', possible loss of data
+  Terrain.vcxproj -> D:\Perforce\girn2102_L06680-04-80934_develop_9811\LaGrandeCourse\x64\Release\Terrain.lib

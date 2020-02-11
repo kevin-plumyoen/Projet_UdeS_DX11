@@ -1,0 +1,8 @@
+﻿  SceneLoader.cpp
+     Creating library D:\Perforce\girn2102_L06680-04-80934_develop_9811\LaGrandeCourse\x64\Profile\Scene.lib and object D:\Perforce\girn2102_L06680-04-80934_develop_9811\LaGrandeCourse\x64\Profile\Scene.exp
+  Generating code
+  12 of 15 functions (80.0%) were compiled, the rest were copied from previous compilation.
+    3 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Scene.vcxproj -> D:\Perforce\girn2102_L06680-04-80934_develop_9811\LaGrandeCourse\x64\Profile\Scene.dll

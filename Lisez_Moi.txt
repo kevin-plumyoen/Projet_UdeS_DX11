@@ -1,0 +1,134 @@
+﻿///////////////////////////////////////////////////////////////
+//                                                           //
+//                                                           //
+//                 La Grande Course : Laser Run              //
+//                          Equipe1                          //
+//                                                           //
+//                                                           //
+///////////////////////////////////////////////////////////////
+
+1. Le Jeu
+
+	L'objectif du jeu est de déplacer une boule dans un environnement 3D jusqu'à une arrivée en un temps record.
+	Le niveau favorise l'utilisation des grappins pour se déplacer à travers lui-même,
+	en se balançant de blocs en blocs, ou en tirant des blocs dynamiques pour faire un escalier.
+
+	Le niveau est décomposé en 4 zones (vert, bleu clair, bleu foncé, violette).
+	Les murs possédant des lumières rouges ne sont pas accrochables.
+	Les blocs ayant des lumières dynamiques sont des blocs dynamiques.
+
+2. Les Contrôles
+
+	Déplacements de la boule : 
+		W : avant
+		A : arrière
+		S : gauche
+		D : droite
+		Espace : saut
+
+	Déplacements de la caméra :
+		Mouvements Souris
+
+	Lancer des grapins (jusqu'à 2) :
+	    Les grappins sont désactivés si PVD est ouvert.
+		Clic droit et Clic gauche, 
+		grapin actif tant que le bouton reste appuyé, envoyé au centre de l'écran
+
+	Menu Pause :
+		Touche Echap,
+		3 Options se propose a nous, 
+		choissisables avec la touche : flèche vers le bas,
+		séléctionnable avec la touche : entrée
+		- Resume : reprend le jeu
+		- Options : ammène sur le menu option, permettant de manière similaire d'activer/désactiver nos PostFX
+		- Exit : permet de quitter le jeu
+
+	Changement de Caméra :
+		F2 : passe de caméra troisième à première personne et inversement
+		
+	Outils de développement: (Seulement disponibles en Release)
+		Pause/Break : Basculer entre la caméra de jeu et de développement 
+		K : Active/Désactive le Frustum Culling
+		F5 : Recharger la scène
+
+3. Description du format des données et des outils de lecture
+
+les objets sont importés à partir du format obj via assimp.
+les matériaux sont soit codé endur, soit importé via un fichier mtl.
+les textures sont au format dds.
+le terrain est un format maison (.patch): c'est une heightmap
+
+4. fonctionnalités
+
+- Lumière :
+	- point lumineux
+	- lumière directionelle
+	- spotlight
+	- multi éclairage
+
+- Techniques HLSL :
+	- Normal Mapping
+	- Radial Blur
+	- Grappins
+	- Bloom (x2)
+
+- Terrain lié à PhysX :
+	- colision terrain-véhicule
+	- colision "boites"-véhicule
+	- connection à pvd
+	- Hitbox sur les objets
+
+- Gestion des zones :
+	scene découpé en plusieurs zones (définies en dur), 
+	contenant leurs objets et activées selon la position du frustrum de vision.
+	Ainsi, on cherche à afficher uniquement les objets des zones actives.
+
+- Frustum Culling :
+	On affiche uniquement les objets potentiellement dans le frustum 
+
+- LOD :
+	on est capable de définir le LOD (High ou Low) d'un objet en fonction de sa distance à la caméra
+	mais celui si n'est pas encore utilisé.
+
+- ECS :
+  Components:
+	-StaticMeshComponent
+	-TransformComponent
+	-RigidBodyComponent
+	-InputComponent
+	-BillboardComponent
+	-CameraComponent
+	-VariableColorComponent
+	-TriggerComponent
+	-UpdateComponent
+	-SplineComponent
+	-GrapplingComponent
+	-LightComponent
+  Systems:
+    -UpdateSystem
+	-InputSystem
+	-TriggerSystem
+	-BillboardRendering
+	-CameraSystem
+	-LightingSystem
+	-StaticMeshRendering
+	-BillboardRendering
+	-VariableColorUpdate
+	
+
+- Gestionnaire de Ressources :
+	-pour les textures
+	-pour les matériaux
+	-pour les shaders
+	-pour les lentilles de caméras
+	-pour les meshes
+	-pour les PostFX
+	-pour les tags
+	-pour les splines
+
+
+
+
+
+
+

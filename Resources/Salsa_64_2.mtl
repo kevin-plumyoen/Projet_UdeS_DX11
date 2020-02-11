@@ -1,0 +1,85 @@
+# Blender MTL File: 'None'
+# Material Count: 7
+
+newmtl ukiki_collar_tex
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd ukiki_tex.dds
+
+newmtl ukiki_tex
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd ukiki_tex.dds
+map_Ka ukiki_tex.dds
+
+newmtl ukiki_tex_NONE
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd ukiki_tex.dds
+map_Ka ukiki_tex.dds
+
+newmtl ukiki_tex_ukiki_tex.dds.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd ukiki_tex.dds
+map_Ka ukiki_tex.dds
+
+newmtl ukiki_tex_ukiki_tex.dds.002
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd ukiki_tex.dds
+map_Ka ukiki_tex.dds
+
+newmtl ukiki_tex_ukiki_tex.dds.003
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd ukiki_tex.dds
+map_Ka ukiki_tex.dds
+
+newmtl ukiki_tex_ukiki_tex.dds.004
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd ukiki_tex.dds
+map_Ka ukiki_tex.dds

@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Gold|x64">
+      <Configuration>Gold</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|x64">
+      <Configuration>Profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\AfficheurTexte.cpp" />
+    <ClCompile Include="Sources\BackwardCommand.cpp" />
+    <ClCompile Include="Sources\BaseCameraController.cpp" />
+    <ClCompile Include="Sources\BaseRenderingSystem.cpp" />
+    <ClCompile Include="Sources\BaseTransformModifierSystem.cpp" />
+    <ClCompile Include="Sources\Billboard.cpp" />
+    <ClCompile Include="Sources\BillboardRenderingSystem.cpp" />
+    <ClCompile Include="Sources\BillboardSystem.cpp" />
+    <ClCompile Include="Sources\Bloom.cpp" />
+    <ClCompile Include="Sources\BridgeController.cpp" />
+    <ClCompile Include="Sources\Camera.cpp" />
+    <ClCompile Include="Sources\CameraController.cpp" />
+    <ClCompile Include="Sources\CameraManager.cpp" />
+    <ClCompile Include="Sources\CameraSystem.cpp" />
+    <ClCompile Include="Sources\CatmullRom.cpp" />
+    <ClCompile Include="Sources\ChronoManager.cpp" />
+    <ClCompile Include="Sources\CMeshImporter.cpp" />
+    <ClCompile Include="Sources\Components.cpp" />
+    <ClCompile Include="Sources\D3D11Renderer.cpp" />
+    <ClCompile Include="Sources\DDSTextureLoader.cpp" />
+    <ClCompile Include="Sources\DebugCameraController.cpp" />
+    <ClCompile Include="Sources\DIManipulateur.cpp" />
+    <ClCompile Include="Sources\dispositif.cpp" />
+    <ClCompile Include="Sources\dispositifD3D11.cpp" />
+    <ClCompile Include="Sources\DynamicMesh.cpp" />
+    <ClCompile Include="Sources\Endgame_Menu.cpp" />
+    <ClCompile Include="Sources\EntityFactory.cpp" />
+    <ClCompile Include="Sources\EntityFactoryAPI.cpp" />
+    <ClCompile Include="Sources\FirstPersonCameraController.cpp" />
+    <ClCompile Include="Sources\GameController.cpp" />
+    <ClCompile Include="Sources\GameplayCameraManager.cpp" />
+    <ClCompile Include="Sources\GizmoRenderer.cpp" />
+    <ClCompile Include="Sources\HierarchicalTransformSystem.cpp" />
+    <ClCompile Include="Sources\HitBox.cpp" />
+    <ClCompile Include="Sources\HUD_En_Jeux.cpp" />
+    <ClCompile Include="Sources\HUD_Manager.cpp" />
+    <ClCompile Include="Sources\In_Game_Menu.cpp" />
+    <ClCompile Include="Sources\JumpCommand.cpp" />
+    <ClCompile Include="Sources\KeyboardCameraChangeController.cpp" />
+    <ClCompile Include="Sources\LibraryLoader.cpp" />
+    <ClCompile Include="Sources\LightingSystem.cpp" />
+    <ClCompile Include="Sources\LightManager.cpp" />
+    <ClCompile Include="Sources\Main_Menu.cpp" />
+    <ClCompile Include="Sources\MaterielTerrain.cpp" />
+    <ClCompile Include="Sources\Mesh.cpp" />
+    <ClCompile Include="Sources\EntityRegistry.cpp" />
+    <ClCompile Include="Sources\EventBus.cpp" />
+    <ClCompile Include="Sources\ForwardCommand.cpp" />
+    <ClCompile Include="Sources\Frustum.cpp" />
+    <ClCompile Include="Sources\Game.cpp" />
+    <ClCompile Include="Sources\GeneralController.cpp" />
+    <ClCompile Include="Sources\GestionnaireDeTextures.cpp" />
+    <ClCompile Include="Sources\GrapplingCommand.cpp" />
+    <ClCompile Include="Sources\GrapplingManager.cpp" />
+    <ClCompile Include="Sources\InfoDispositif.cpp" />
+    <ClCompile Include="Sources\InputSystem.cpp" />
+    <ClCompile Include="Sources\KeyboardMovementController.cpp" />
+    <ClCompile Include="Sources\LeftCommand.cpp" />
+    <ClCompile Include="Sources\Logger.cpp" />
+    <ClCompile Include="Sources\main.cpp" />
+    <ClCompile Include="Sources\Materiel.cpp" />
+    <ClCompile Include="Sources\Math.cpp" />
+    <ClCompile Include="Sources\MouseGrapplingController.cpp" />
+    <ClCompile Include="Sources\OptionDatabase.cpp" />
+    <ClCompile Include="Sources\Option_Menu.cpp" />
+    <ClCompile Include="Sources\PerspectiveCameraLen.cpp" />
+    <ClCompile Include="Sources\PhysicEngine.cpp" />
+    <ClCompile Include="Sources\PhysicHelper.cpp" />
+    <ClCompile Include="Sources\PhysicSimulationEvents.cpp" />
+    <ClCompile Include="Sources\PhysXFoundation.cpp" />
+    <ClCompile Include="Sources\PhysXPhysics.cpp" />
+    <ClCompile Include="Sources\PlayerController.cpp" />
+    <ClCompile Include="Sources\PlayerMovementCommand.cpp" />
+    <ClCompile Include="Sources\PostFX.cpp" />
+    <ClCompile Include="Sources\Profiler.cpp" />
+    <ClCompile Include="Sources\RadialBlur.cpp" />
+    <ClCompile Include="Sources\RayCastedThirdPersonCameraController.cpp" />
+    <ClCompile Include="Sources\RenderTexture.cpp" />
+    <ClCompile Include="Sources\RequestCameraChangeCommand.cpp" />
+    <ClCompile Include="Sources\RequiredSystems.cpp" />
+    <ClCompile Include="Sources\RightCommand.cpp" />
+    <ClCompile Include="Sources\Scene.cpp" />
+    <ClCompile Include="Sources\SceneAPI.cpp" />
+    <ClCompile Include="Sources\Score.cpp" />
+    <ClCompile Include="Sources\Scoreboard_Menu.cpp" />
+    <ClCompile Include="Sources\ScreenBillboard.cpp" />
+    <ClCompile Include="Sources\Shader.cpp" />
+    <ClCompile Include="Sources\ShaderTerrain.cpp" />
+    <ClCompile Include="Sources\SimpleCameraController.cpp" />
+    <ClCompile Include="Sources\Skybox.cpp" />
+    <ClCompile Include="Sources\sommetbloc.cpp" />
+    <ClCompile Include="Sources\sommetTerrain.cpp" />
+    <ClCompile Include="Sources\SplineFollowingSystem.cpp" />
+    <ClCompile Include="Sources\StaticMeshRenderingSystem.cpp" />
+    <ClCompile Include="Sources\Systems.cpp" />
+    <ClCompile Include="Sources\TerrainPatchEffet.cpp" />
+    <ClCompile Include="Sources\Texture.cpp" />
+    <ClCompile Include="Sources\ThirdPersonCameraController.cpp" />
+    <ClCompile Include="Sources\Transform.cpp" />
+    <ClCompile Include="Sources\TransformHierarchy.cpp" />
+    <ClCompile Include="Sources\TriggerSystem.cpp" />
+    <ClCompile Include="Sources\UpdateRigidBodyTransformsSystem.cpp" />
+    <ClCompile Include="Sources\UpdateSystem.cpp" />
+    <ClCompile Include="Sources\VariableColorUpdateSystem.cpp" />
+    <ClCompile Include="Sources\Win32Backend.cpp" />
+    <ClCompile Include="Sources\WreckingBallCameraController.cpp" />
+    <ClCompile Include="Sources\Zone.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resources\resource.h" />
+    <ClInclude Include="Sources\AfficheurTexte.h" />
+    <ClInclude Include="Sources\BackendTraits.h" />
+    <ClInclude Include="Sources\BackwardCommand.h" />
+    <ClInclude Include="Sources\BaseCameraController.h" />
+    <ClInclude Include="Sources\BaseRenderingSystem.h" />
+    <ClInclude Include="Sources\BaseTransformModifierSystem.h" />
+    <ClInclude Include="Sources\Billboard.h" />
+    <ClInclude Include="Sources\BillboardComponent.h" />
+    <ClInclude Include="Sources\BillboardRenderingSystem.h" />
+    <ClInclude Include="Sources\BillboardSystem.h" />
+    <ClInclude Include="Sources\Bloom.h" />
+    <ClInclude Include="Sources\BridgeController.h" />
+    <ClInclude Include="Sources\Camera.h" />
+    <ClInclude Include="Sources\CameraComponent.h" />
+    <ClInclude Include="Sources\CameraController.h" />
+    <ClInclude Include="Sources\CameraEvent.h" />
+    <ClInclude Include="Sources\CameraLen.h" />
+    <ClInclude Include="Sources\CameraManager.h" />
+    <ClInclude Include="Sources\CameraSystem.h" />
+    <ClInclude Include="Sources\CatmullRom.h" />
+    <ClInclude Include="Sources\CheatDatabase.h" />
+    <ClInclude Include="Sources\ChronoManager.h" />
+    <ClInclude Include="Sources\Clock.h" />
+    <ClInclude Include="Sources\CMeshImporter.h" />
+    <ClInclude Include="Sources\CollisionMasks.h" />
+    <ClInclude Include="Sources\Components.h" />
+    <ClInclude Include="Sources\ComponentStorages.h" />
+    <ClInclude Include="Sources\ControllerLayout.h" />
+    <ClInclude Include="Sources\Couleur.h" />
+    <ClInclude Include="Sources\D3D11Renderer.h" />
+    <ClInclude Include="Sources\d3dx11effect.h" />
+    <ClInclude Include="Sources\d3dxGlobal.h" />
+    <ClInclude Include="Sources\DDSTextureLoader.h" />
+    <ClInclude Include="Sources\DebugCameraController.h" />
+    <ClInclude Include="Sources\DIManipulateur.h" />
+    <ClInclude Include="Sources\DInputInitData.h" />
+    <ClInclude Include="Sources\dispositif.h" />
+    <ClInclude Include="Sources\dispositifD3D11.h" />
+    <ClInclude Include="Sources\DrawContext.h" />
+    <ClInclude Include="Sources\DynamicMesh.h" />
+    <ClInclude Include="Sources\Endgame_Menu.h" />
+    <ClInclude Include="Sources\EntityFactory.h" />
+    <ClInclude Include="Sources\EntityFactoryAPI.h" />
+    <ClInclude Include="Sources\FirstPersonCameraController.h" />
+    <ClInclude Include="Sources\GameController.h" />
+    <ClInclude Include="Sources\GameplayCameraManager.h" />
+    <ClInclude Include="Sources\GizmoRenderer.h" />
+    <ClInclude Include="Sources\GrapplingComponent.h" />
+    <ClInclude Include="Sources\HierarchicalTransformSystem.h" />
+    <ClInclude Include="Sources\HUD_En_Jeux.h" />
+    <ClInclude Include="Sources\HUD_Event.h" />
+    <ClInclude Include="Sources\HUD_Manager.h" />
+    <ClInclude Include="Sources\In_Game_Menu.h" />
+    <ClInclude Include="Sources\JumpCommand.h" />
+    <ClInclude Include="Sources\KeyboardCameraChangeController.h" />
+    <ClInclude Include="Sources\LibraryLoader.h" />
+    <ClInclude Include="Sources\LightingSystem.h" />
+    <ClInclude Include="Sources\LightManager.h" />
+    <ClInclude Include="Sources\MapStorage.h" />
+    <ClInclude Include="Sources\Main_Menu.h" />
+    <ClInclude Include="Sources\MaterielTerrain.h" />
+    <ClInclude Include="Sources\MenuInterface.h" />
+    <ClInclude Include="Sources\Mesh.h" />
+    <ClInclude Include="Sources\EngineContext.h" />
+    <ClInclude Include="Sources\EngineEvents.h" />
+    <ClInclude Include="Sources\Entity.h" />
+    <ClInclude Include="Sources\EntityProxy.h" />
+    <ClInclude Include="Sources\EntityProxyFactory.h" />
+    <ClInclude Include="Sources\EntityRegistry.h" />
+    <ClInclude Include="Sources\Event.h" />
+    <ClInclude Include="Sources\EventBus.h" />
+    <ClInclude Include="Sources\EventTraits.h" />
+    <ClInclude Include="Sources\ForwardCommand.h" />
+    <ClInclude Include="Sources\Game.h" />
+    <ClInclude Include="Sources\GeneralController.h" />
+    <ClInclude Include="Sources\GestionnaireDeTextures.h" />
+    <ClInclude Include="Sources\Gestionnaires.h" />
+    <ClInclude Include="Sources\GrapplingCommand.h" />
+    <ClInclude Include="Sources\GrapplingEvent.h" />
+    <ClInclude Include="Sources\GrapplingManager.h" />
+    <ClInclude Include="Sources\Headers\Frustum.h" />
+    <ClInclude Include="Sources\Headers\Scene.h" />
+    <ClInclude Include="Sources\Headers\Zone.h" />
+    <ClInclude Include="Sources\HitBox.h" />
+    <ClInclude Include="Sources\Identities.h" />
+    <ClInclude Include="Sources\InfoDispositif.h" />
+    <ClInclude Include="Sources\InputCommand.h" />
+    <ClInclude Include="Sources\InputComponent.h" />
+    <ClInclude Include="Sources\InputController.h" />
+    <ClInclude Include="Sources\InputSystem.h" />
+    <ClInclude Include="Sources\KeyboardKeys.h" />
+    <ClInclude Include="Sources\KeyboardMovementController.h" />
+    <ClInclude Include="Sources\LeftCommand.h" />
+    <ClInclude Include="Sources\LightComponent.h" />
+    <ClInclude Include="Sources\Logger.h" />
+    <ClInclude Include="Sources\Materiel.h" />
+    <ClInclude Include="Sources\MathHelpers.h" />
+    <ClInclude Include="Sources\Moteur.h" />
+    <ClInclude Include="Sources\MouseGrapplingController.h" />
+    <ClInclude Include="Sources\objet3d.h" />
+    <ClInclude Include="Sources\OptionDatabase.h" />
+    <ClInclude Include="Sources\Option_Menu.h" />
+    <ClInclude Include="Sources\PerspectiveCameraLen.h" />
+    <ClInclude Include="Sources\PetitMoteur3D.h" />
+    <ClInclude Include="Sources\PhysicEngine.h" />
+    <ClInclude Include="Sources\PhysicHelpers.h" />
+    <ClInclude Include="Sources\PhysicMaterial.h" />
+    <ClInclude Include="Sources\PhysicSimulationEvents.h" />
+    <ClInclude Include="Sources\PhysXFoundation.h" />
+    <ClInclude Include="Sources\PhysXPhysics.h" />
+    <ClInclude Include="Sources\PlayerController.h" />
+    <ClInclude Include="Sources\PlayerEvent.h" />
+    <ClInclude Include="Sources\PlayerMovementCommand.h" />
+    <ClInclude Include="Sources\PostFX.h" />
+    <ClInclude Include="Sources\Profiler.h" />
+    <ClInclude Include="Sources\RadialBlur.h" />
+    <ClInclude Include="Sources\RayCastedThirdPersonCameraController.h" />
+    <ClInclude Include="Sources\RenderCommand.h" />
+    <ClInclude Include="Sources\Renderer.h" />
+    <ClInclude Include="Sources\RenderTexture.h" />
+    <ClInclude Include="Sources\RequestCameraChangeCommand.h" />
+    <ClInclude Include="Sources\RequiredSystems.h" />
+    <ClInclude Include="Sources\RightCommand.h" />
+    <ClInclude Include="Sources\RigidBodyComponent.h" />
+    <ClInclude Include="Sources\SceneLoaderContext.h" />
+    <ClInclude Include="Sources\Score.h" />
+    <ClInclude Include="Sources\Scoreboard_Menu.h" />
+    <ClInclude Include="Sources\ScreenBillboard.h" />
+    <ClInclude Include="Sources\Shader.h" />
+    <ClInclude Include="Sources\ShaderTerrain.h" />
+    <ClInclude Include="Sources\SimpleCameraController.h" />
+    <ClInclude Include="Sources\Singleton.h" />
+    <ClInclude Include="Sources\Skybox.h" />
+    <ClInclude Include="Sources\sommetbloc.h" />
+    <ClInclude Include="Sources\SommetTerrain.h" />
+    <ClInclude Include="Sources\SplineComponent.h" />
+    <ClInclude Include="Sources\SplineFollowingSystem.h" />
+    <ClInclude Include="Sources\StaticMeshComponent.h" />
+    <ClInclude Include="Sources\StaticMeshRenderingSystem.h" />
+    <ClInclude Include="Sources\StorageTraits.h" />
+    <ClInclude Include="Sources\SystemInterface.h" />
+    <ClInclude Include="Sources\Systems.h" />
+    <ClInclude Include="Sources\TerrainPatchEffet.h" />
+    <ClInclude Include="Sources\TextComponent.h" />
+    <ClInclude Include="Sources\Texture.h" />
+    <ClInclude Include="Sources\ThirdPersonCameraController.h" />
+    <ClInclude Include="Sources\Transform.h" />
+    <ClInclude Include="Sources\TransformComponent.h" />
+    <ClInclude Include="Sources\TransformHierarchy.h" />
+    <ClInclude Include="Sources\TriggerComponent.h" />
+    <ClInclude Include="Sources\TriggerEvent.h" />
+    <ClInclude Include="Sources\TriggerSystem.h" />
+    <ClInclude Include="Sources\UpdateComponent.h" />
+    <ClInclude Include="Sources\UpdateRigidBodyTransformsSystem.h" />
+    <ClInclude Include="Sources\UpdateSystem.h" />
+    <ClInclude Include="Sources\util.h" />
+    <ClInclude Include="Sources\VariableColorComponent.h" />
+    <ClInclude Include="Sources\VariableColorUpdateSystem.h" />
+    <ClInclude Include="Sources\vector.h" />
+    <ClInclude Include="Sources\VectorStorage.h" />
+    <ClInclude Include="Sources\Win32Backend.h" />
+    <ClInclude Include="Sources\WreckingBallCameraController.h" />
+    <ClInclude Include="Sources\SceneAPI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\out.patch" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\PetitMoteur3D.ico" />
+    <Image Include="Resources\small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\PetitMoteur3D.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Sources\Shader\Bloom.fx" />
+    <FxCompile Include="Sources\Shader\Brightness.fx" />
+    <FxCompile Include="Sources\Shader\Gizmo.fx" />
+    <FxCompile Include="Sources\Shader\HBlur.fx" />
+    <FxCompile Include="Sources\Shader\Hud.fx" />
+    <FxCompile Include="Sources\Shader\MiniPhong.fx" />
+    <FxCompile Include="Sources\Shader\RadialBlur.fx" />
+    <FxCompile Include="Sources\Shader\Screen.fx" />
+    <FxCompile Include="Sources\Shader\ShaderBis.fx" />
+    <FxCompile Include="Sources\Shader\Skybox.fx" />
+    <FxCompile Include="Sources\Shader\Terrain.fx" />
+    <FxCompile Include="Sources\Shader\VBlur.fx" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{6429304C-E68E-4980-9A8A-10D557867E20}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>LaGrandeCourse</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Gold|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Gold|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(Platform)\$(Configuration)\intermediate\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(Platform)\$(Configuration)\intermediate\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Gold|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(Platform)\$(Configuration)\intermediate\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(Platform)\$(Configuration)\intermediate\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32_LEAN_AND_MEAN;_SCL_SECURE_NO_WARNINGS;_XM_NO_INTRINSICS_;_DEBUG;_WINDOWS;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)lib\PhysX\PhysX-3.4\Include;$(SolutionDir)lib\PhysX\PxShared\foundation\include;$(SolutionDir)lib\PhysX\PxShared\Include;$(ProjectDir)Sources\Headers;$(SolutionDir)lib\Assimp\include;$(ProjectDir)Resources;$(SolutionDir)Terrain\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <EnableParallelCodeGeneration>
+      </EnableParallelCodeGeneration>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>$(OutDir);$(ProjectDir)lib;$(ProjectDir)lib\PhysX\PxShared\Lib;$(ProjectDir)lib\PhysX\PhysX-3.4\Lib;$(ProjectDir)lib\Assimp\lib\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>dxguid.lib;winmm.lib;d3d11.lib;d3dcompiler.lib;DXGI.lib;dinput8.lib;assimp-vc140-mt.lib;Effects11d.lib;PxFoundationDEBUG_x64.lib;PxPvdSDKDEBUG_x64.lib;PxTaskDEBUG_x64.lib;PhysX3DEBUG_x64.lib;PhysX3CommonDEBUG_x64.lib;PhysX3ExtensionsDEBUG.lib;PhysX3CookingDEBUG_x64.lib;terraind.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+      <Message>
+      </Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32_LEAN_AND_MEAN;_SCL_SECURE_NO_WARNINGS;_XM_NO_INTRINSICS_;NDEBUG;_WINDOWS;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)lib\PhysX\PhysX-3.4\Include;$(SolutionDir)lib\PhysX\PxShared\foundation\include;$(SolutionDir)lib\PhysX\PxShared\Include;$(ProjectDir)Sources\Headers;$(SolutionDir)lib\Assimp\include;$(ProjectDir)Resources;$(SolutionDir)Terrain\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <EnableParallelCodeGeneration>
+      </EnableParallelCodeGeneration>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>$(OutDir);$(ProjectDir)lib;$(ProjectDir)lib\PhysX\PxShared\Lib;$(ProjectDir)lib\PhysX\PhysX-3.4\Lib;$(ProjectDir)lib\Assimp\Lib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>dxguid.lib;winmm.lib;d3d11.lib;d3dcompiler.lib;DXGI.lib;dinput8.lib;assimp-vc140-mt.lib;Effects11.lib;PxFoundation_x64.lib;PxPvdSDK_x64.lib;PxTask_x64.lib;PhysX3_x64.lib;PhysX3Common_x64.lib;PhysX3Extensions.lib;PhysX3Cooking_x64.lib;terrain.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+      <Message>
+      </Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Gold|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32_LEAN_AND_MEAN;_SCL_SECURE_NO_WARNINGS;_XM_NO_INTRINSICS_;NDEBUG;_WINDOWS;DIRECTINPUT_VERSION=0x0800;NEDITOR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)lib\PhysX\PhysX-3.4\Include;$(SolutionDir)lib\PhysX\PxShared\foundation\include;$(SolutionDir)lib\PhysX\PxShared\Include;$(ProjectDir)Sources\Headers;$(SolutionDir)lib\Assimp\include;$(ProjectDir)Resources;$(SolutionDir)Terrain\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <EnableParallelCodeGeneration>
+      </EnableParallelCodeGeneration>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>$(OutDir);$(ProjectDir)lib;$(ProjectDir)lib\PhysX\PxShared\Lib;$(ProjectDir)lib\PhysX\PhysX-3.4\Lib;$(ProjectDir)lib\Assimp\Lib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>dxguid.lib;winmm.lib;d3d11.lib;d3dcompiler.lib;DXGI.lib;dinput8.lib;assimp-vc140-mt.lib;Effects11.lib;PxFoundation_x64.lib;PxPvdSDK_x64.lib;PxTask_x64.lib;PhysX3_x64.lib;PhysX3Common_x64.lib;PhysX3Extensions.lib;PhysX3Cooking_x64.lib;terrain.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+      <Message>
+      </Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>ENABLE_PROFILING;WIN32_LEAN_AND_MEAN;_SCL_SECURE_NO_WARNINGS;_XM_NO_INTRINSICS_;NDEBUG;_WINDOWS;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)lib\PhysX\PhysX-3.4\Include;$(SolutionDir)lib\PhysX\PxShared\foundation\include;$(SolutionDir)lib\PhysX\PxShared\Include;$(ProjectDir)Sources\Headers;$(SolutionDir)lib\Assimp\include;$(ProjectDir)Resources;$(SolutionDir)Terrain\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <EnableParallelCodeGeneration>
+      </EnableParallelCodeGeneration>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>$(OutDir);$(ProjectDir)lib;$(ProjectDir)lib\PhysX\PxShared\Lib;$(ProjectDir)lib\PhysX\PhysX-3.4\Lib;$(ProjectDir)lib\Assimp\Lib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>dxguid.lib;winmm.lib;d3d11.lib;d3dcompiler.lib;DXGI.lib;dinput8.lib;assimp-vc140-mt.lib;Effects11.lib;PxFoundation_x64.lib;PxPvdSDK_x64.lib;PxTask_x64.lib;PhysX3_x64.lib;PhysX3Common_x64.lib;PhysX3Extensions.lib;PhysX3Cooking_x64.lib;terrain.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+      <Message>
+      </Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,7 @@
+﻿  Generating code
+  7 of 635 functions ( 1.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+terrain.lib(terrain_patch.obj) : warning LNK4020: a type record in 'D:\Perforce\girn2102_L06680-04-80934_develop_9811\LaGrandeCourse\Terrain\x64\Release\Terrain.pdb' is corrupted; some symbols and types may not be accessible from the debugger
+  TerrainGenerator.vcxproj -> D:\Perforce\girn2102_L06680-04-80934_develop_9811\LaGrandeCourse\x64\Release\TerrainGenerator.exe

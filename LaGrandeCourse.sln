@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LaGrandeCourse", "LaGrandeCourse.vcxproj", "{6429304C-E68E-4980-9A8A-10D557867E20}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A799C15D-ACA0-45EC-AE74-5CAD86C0CEE8} = {A799C15D-ACA0-45EC-AE74-5CAD86C0CEE8}
+		{9EAB158C-0231-41D6-9ED9-61E07185B25B} = {9EAB158C-0231-41D6-9ED9-61E07185B25B}
+		{C9B5AAA4-7003-40DD-98E8-E3536597F6FC} = {C9B5AAA4-7003-40DD-98E8-E3536597F6FC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TerrainGenerator", "TerrainGenerator\TerrainGenerator.vcxproj", "{5FA7E177-3099-4F06-966B-B705EAAAFB0F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9EAB158C-0231-41D6-9ED9-61E07185B25B} = {9EAB158C-0231-41D6-9ED9-61E07185B25B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Terrain", "Terrain\Terrain.vcxproj", "{9EAB158C-0231-41D6-9ED9-61E07185B25B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Install Assets", "Install Assets\Install Assets.vcxproj", "{C9B5AAA4-7003-40DD-98E8-E3536597F6FC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Scene", "Scene\Scene.vcxproj", "{A799C15D-ACA0-45EC-AE74-5CAD86C0CEE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Terrain Related", "Terrain Related", "{9D5E4F68-54D8-44D0-8773-686543E86C47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Gold|x64 = Gold|x64
+		Profile|x64 = Profile|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6429304C-E68E-4980-9A8A-10D557867E20}.Debug|x64.ActiveCfg = Debug|x64
+		{6429304C-E68E-4980-9A8A-10D557867E20}.Debug|x64.Build.0 = Debug|x64
+		{6429304C-E68E-4980-9A8A-10D557867E20}.Gold|x64.ActiveCfg = Gold|x64
+		{6429304C-E68E-4980-9A8A-10D557867E20}.Gold|x64.Build.0 = Gold|x64
+		{6429304C-E68E-4980-9A8A-10D557867E20}.Profile|x64.ActiveCfg = Profile|x64
+		{6429304C-E68E-4980-9A8A-10D557867E20}.Profile|x64.Build.0 = Profile|x64
+		{6429304C-E68E-4980-9A8A-10D557867E20}.Release|x64.ActiveCfg = Release|x64
+		{6429304C-E68E-4980-9A8A-10D557867E20}.Release|x64.Build.0 = Release|x64
+		{5FA7E177-3099-4F06-966B-B705EAAAFB0F}.Debug|x64.ActiveCfg = Debug|x64
+		{5FA7E177-3099-4F06-966B-B705EAAAFB0F}.Debug|x64.Build.0 = Debug|x64
+		{5FA7E177-3099-4F06-966B-B705EAAAFB0F}.Gold|x64.ActiveCfg = Gold|x64
+		{5FA7E177-3099-4F06-966B-B705EAAAFB0F}.Gold|x64.Build.0 = Gold|x64
+		{5FA7E177-3099-4F06-966B-B705EAAAFB0F}.Profile|x64.ActiveCfg = Profile|x64
+		{5FA7E177-3099-4F06-966B-B705EAAAFB0F}.Profile|x64.Build.0 = Profile|x64
+		{5FA7E177-3099-4F06-966B-B705EAAAFB0F}.Release|x64.ActiveCfg = Release|x64
+		{5FA7E177-3099-4F06-966B-B705EAAAFB0F}.Release|x64.Build.0 = Release|x64
+		{9EAB158C-0231-41D6-9ED9-61E07185B25B}.Debug|x64.ActiveCfg = Debug|x64
+		{9EAB158C-0231-41D6-9ED9-61E07185B25B}.Debug|x64.Build.0 = Debug|x64
+		{9EAB158C-0231-41D6-9ED9-61E07185B25B}.Gold|x64.ActiveCfg = Gold|x64
+		{9EAB158C-0231-41D6-9ED9-61E07185B25B}.Gold|x64.Build.0 = Gold|x64
+		{9EAB158C-0231-41D6-9ED9-61E07185B25B}.Profile|x64.ActiveCfg = Profile|x64
+		{9EAB158C-0231-41D6-9ED9-61E07185B25B}.Profile|x64.Build.0 = Profile|x64
+		{9EAB158C-0231-41D6-9ED9-61E07185B25B}.Release|x64.ActiveCfg = Release|x64
+		{9EAB158C-0231-41D6-9ED9-61E07185B25B}.Release|x64.Build.0 = Release|x64
+		{C9B5AAA4-7003-40DD-98E8-E3536597F6FC}.Debug|x64.ActiveCfg = Debug|x64
+		{C9B5AAA4-7003-40DD-98E8-E3536597F6FC}.Debug|x64.Build.0 = Debug|x64
+		{C9B5AAA4-7003-40DD-98E8-E3536597F6FC}.Gold|x64.ActiveCfg = Gold|x64
+		{C9B5AAA4-7003-40DD-98E8-E3536597F6FC}.Gold|x64.Build.0 = Gold|x64
+		{C9B5AAA4-7003-40DD-98E8-E3536597F6FC}.Profile|x64.ActiveCfg = Profile|x64
+		{C9B5AAA4-7003-40DD-98E8-E3536597F6FC}.Profile|x64.Build.0 = Profile|x64
+		{C9B5AAA4-7003-40DD-98E8-E3536597F6FC}.Release|x64.ActiveCfg = Release|x64
+		{C9B5AAA4-7003-40DD-98E8-E3536597F6FC}.Release|x64.Build.0 = Release|x64
+		{A799C15D-ACA0-45EC-AE74-5CAD86C0CEE8}.Debug|x64.ActiveCfg = Debug|x64
+		{A799C15D-ACA0-45EC-AE74-5CAD86C0CEE8}.Debug|x64.Build.0 = Debug|x64
+		{A799C15D-ACA0-45EC-AE74-5CAD86C0CEE8}.Gold|x64.ActiveCfg = Gold|x64
+		{A799C15D-ACA0-45EC-AE74-5CAD86C0CEE8}.Gold|x64.Build.0 = Gold|x64
+		{A799C15D-ACA0-45EC-AE74-5CAD86C0CEE8}.Profile|x64.ActiveCfg = Profile|x64
+		{A799C15D-ACA0-45EC-AE74-5CAD86C0CEE8}.Profile|x64.Build.0 = Profile|x64
+		{A799C15D-ACA0-45EC-AE74-5CAD86C0CEE8}.Release|x64.ActiveCfg = Release|x64
+		{A799C15D-ACA0-45EC-AE74-5CAD86C0CEE8}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5FA7E177-3099-4F06-966B-B705EAAAFB0F} = {9D5E4F68-54D8-44D0-8773-686543E86C47}
+		{9EAB158C-0231-41D6-9ED9-61E07185B25B} = {9D5E4F68-54D8-44D0-8773-686543E86C47}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC2905FC-34E6-46FE-88DF-9725DD5820D5}
+	EndGlobalSection
+EndGlobal
